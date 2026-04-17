@@ -1,0 +1,89 @@
+{
+  "brand_name": "Roberto Verino",
+  "market": "Australia & New Zealand (ANZ) — part of a global Spanish fashion house operating 180+ points of sale across Spain, Portugal, Mexico and Australia",
+  "website_url": "https://robertoverino.com.au",
+  "category": "Quiet-luxury designer fashion — tailored ready-to-wear, dresses, outerwear, and accessories for women and men; Made in Spain / crafted in Europe since 1982",
+  "positioning": "A Spanish fashion house built on serene beauty and enduring quality. Roberto Verino is for the confident, design-literate customer who chooses pieces that last — refined silhouettes, sculptural tailoring, and iconic fabrics (crepe at the heart of the house) that transcend trend. The tone is quiet luxury: calm, clarity, and quiet confidence. What is essential always shines.",
+  "tone_descriptors": [
+    "Contemplative",
+    "Aspirational but unhurried",
+    "Refined and understated",
+    "Sensory and tactile (fabric-led)",
+    "Poetic-fragment (short, image-rich lines)",
+    "Warm and confident, never loud",
+    "Craft-forward",
+    "Gender-inclusive but feminine-led"
+  ],
+  "voice_principles": [
+    "Lead with feeling and fabric, not price or urgency — quality is the quiet signal.",
+    "Use short, image-rich fragments in hero copy ('Light, Airy, Luminous'); longer prose for craft stories and care guides.",
+    "Prefer Australian English spelling (colour, favourite, centre, organise).",
+    "Use em dashes (—) for emphasis, not exclamation marks.",
+    "Frame promotions softly: 'Enjoy…', 'For you…', 'For a limited time' — never shout a discount.",
+    "Talk about longevity and craftsmanship, not trend cycles.",
+    "Let the product do the work — copy should cue the garment's hand, drape, and structure rather than describe it literally.",
+    "When speaking about heritage, say 'since 1982' and 'Made in Spain' without over-explaining.",
+    "When writing for men's collections, shift slightly toward sculptural, tailored, essential — same quiet register, less floral imagery."
+  ],
+  "vocabulary_favour": [
+    "timeless",
+    "enduring",
+    "quiet luxury",
+    "serene",
+    "luminous",
+    "fluid",
+    "sculptural",
+    "refined",
+    "effortless",
+    "elegant",
+    "essential",
+    "tailored",
+    "crafted",
+    "artistry",
+    "heritage",
+    "crepe",
+    "longevity",
+    "character",
+    "silhouette",
+    "Made in Spain",
+    "designed to last",
+    "iconic fabric of the house",
+    "calm, clarity, and quiet confidence"
+  ],
+  "vocabulary_avoid": [
+    "MASSIVE SALE / HUGE DISCOUNT / BLOWOUT",
+    "trendy, on-trend, must-have, drop (as a trend marker)",
+    "cheap, affordable, best-priced",
+    "girl boss / slay / iconic (as slang)",
+    "eco-friendly / sustainable (unless substantiated)",
+    "fast fashion vocabulary",
+    "exclamation-heavy hype ('Shop now!!!', 'Don't miss out!!!')",
+    "'Hey gorgeous' / 'Hey babe' style openers",
+    "direct comparisons to competitor brands",
+    "made-up provenance claims beyond 'Made in Spain' / 'crafted in Europe'"
+  ],
+  "target_audience": {
+    "primary": "Confident, design-literate women aged 35–60 who value quality, craftsmanship and longevity over trend. Core buyers of tailoring, dresses, crepe separates and leather accessories. Shops online via robertoverino.com.au and in Paddington (418 Oxford St), with ANZ-wide delivery. Often already engaged with other group brands (Les Néréides Australia, Adolfo Dominguez Australia, Love Persimmon).",
+    "secondary": "Men in the same mindset — drawn to sculptural, tailored essentials (suits, blazers, tailored vests, shirts). Same quiet-luxury register, less decorative imagery, more emphasis on construction, fit and versatility.",
+    "gift_shoppers": "Partners, adult children and friends buying for occasions (Christmas, Valentine's Day, International Women's Day, Mother's Day, birthdays). They gravitate to handbags, scarves, leather accessories and signature crepe pieces. Copy for gifting emphasises 'pieces to be loved,' 'something lasting,' and curated edits — never urgency."
+  },
+  "usp": [
+    "Spanish fashion house founded in 1982 — genuine 40+ years of heritage, Made in Spain / crafted in Europe.",
+    "First Spanish fashion company to receive AENOR quality certification (1997).",
+    "Crepe is the iconic fabric of the house — versatile, fluid, effortless, built around the customer's real wardrobe.",
+    "Quiet luxury with longevity built in: each piece is made to be worn again and again.",
+    "Full lifestyle offer for women and men — tailoring, dresses, outerwear, handbags and accessories.",
+    "Now available in Australia & New Zealand, in-store at 418 Oxford Street Paddington and online at robertoverino.com.au."
+  ],
+  "forbidden_claims": [
+    "No 'sustainable,' 'eco-friendly,' 'ethical,' or 'organic' claims unless substantiated by a specific certification or audit — AENOR quality (1997) is the only heritage certification on file.",
+    "No origin claims beyond 'Made in Spain' or 'crafted in Europe' — do not specify a region, atelier, or factory without verification.",
+    "No 'hand-made' / 'artisan' claims for pieces not verified as such.",
+    "No health, wellness, or skin-benefit claims tied to fabrics.",
+    "No pricing superlatives ('cheapest,' 'lowest price,' 'unbeatable value').",
+    "No unverified sales or stock claims ('selling out fast,' 'only 2 left' unless system-backed).",
+    "No celebrity endorsements or worn-by claims without documented authorisation."
+  ],
+  "competitor_policy": "Never name or compare against other brands in customer-facing copy — not other quiet-luxury houses (Adolfo Domínguez, Massimo Dutti, COS, Arket, The Row), not sister brands in the retail family (Les Néréides Australia, Adolfo Dominguez Australia, Love Persimmon, Mr Boho Australia, Moda Nexus Group). Differentiate by what Roberto Verino IS — Spanish heritage, crepe, quiet luxury, longevity — not by what others aren't. Cross-brand mentions are permitted only in shared-group footers and in curated 'across our brands' edits clearly framed as a retail-family offer.",
+  "spelling_convention": "Australian English (en-AU). Use -our (colour, favour, honour), -re (centre, theatre), -ise (organise, recognise, personalise), 'programme' for non-computing usage, 'jewellery' not 'jewelry'. Use em dashes (—) for emphasis. Use smart quotes in marketing copy. Dates in DD/MM/YYYY; prices in AUD with the $ symbol; free shipping threshold is $300+."
+}
