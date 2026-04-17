@@ -1,0 +1,206 @@
+{
+  "brand_name": "Love Persimmon",
+  "market": "Australia, New Zealand",
+  "website_url": "https://www.lovepersimmon.com.au",
+  "category": "Multi-brand retailer of curated designer jewellery, women's and men's fashion, accessories, kids' products, and homeware, sourced from Australian and European designers.",
+  "positioning": "Curated designer retailer offering thoughtfully selected jewellery, fashion, and homeware from standout Australian and European designers — positioned as an alternative to mainstream retail for style-conscious shoppers who want individuality and craftsmanship. Physical presence in Sydney and Canberra, with worldwide shipping from Australia.",
+  "spelling_convention": "British/Australian English (observed: 'jewellery', 'colour', 'favourites', 'personalisation')",
+
+  "about": {
+    "founded": null,
+    "origin": "Australian-based retailer operating physical stores in Sydney and Canberra, with worldwide shipping from Australia (Instagram bio).",
+    "craft_method": "Brand does not design or manufacture — it curates. Buys directly from selected Australian and European designers (including Les Néréides, N2 by Les Néréides, Adolfo Dominguez, Roberto Verino, Alquema, Vendula London, Mr.Boho, Maison Scarlett, and lifestyle brands such as Saardé, Fazeek, and Mrs Darcy).",
+    "mission": ""
+  },
+
+  "manifesto": "Curated Elegance for the Style-Conscious. Artisan jewellery, fashion, and homeware from standout Australian and European designers. Thoughtfully selected, never mainstream.",
+
+  "brand_pillars": [
+    {
+      "pillar": "Curation over mass-market",
+      "description": "Every product is hand-picked from selected designers. The site repeatedly frames its edit as 'never mainstream', 'beyond mainstream retail', and 'thoughtfully selected'."
+    },
+    {
+      "pillar": "Craftsmanship and artistry",
+      "description": "Emphasis on handcrafted, hand-enamelled, and artisan-made pieces. Designer heritage and technique (e.g., French enamel, Spanish tailoring) are foregrounded over trend or price."
+    },
+    {
+      "pillar": "Storytelling and personal meaning",
+      "description": "Products framed as wearable keepsakes and narrative objects. 'Every piece tells a story — your story' recurs across category pages and charms/jewellery copy."
+    },
+    {
+      "pillar": "European and Australian design provenance",
+      "description": "Heritage of source countries (France, Spain, UK, Italy, Australia) is treated as a proof point of quality and character, not a marketing gloss."
+    },
+    {
+      "pillar": "Gifting and self-treating",
+      "description": "Copy consistently positions products for 'treating yourself or finding the perfect gift', reinforced by dedicated price-band gift collections ($50 / $100 / $150 / $250)."
+    }
+  ],
+
+  "usp": [
+    "Exclusive Australian stockist relationships for several European designers (notably Les Néréides and N2 by Les Néréides)",
+    "Multi-brand edit spanning jewellery, fashion, homeware, kids, and fragrance — one destination for designer-led lifestyle shopping",
+    "Physical retail in Sydney and Canberra with worldwide shipping from Australia",
+    "Free Australian shipping on orders $199+; shipping within 48 hours",
+    "Tiered gift navigation ($50 / $100 / $150 / $250) built for gift-shoppers",
+    "7-day change-of-mind returns"
+  ],
+
+  "tone_descriptors": [
+    "Warm and inviting",
+    "Lightly romantic without being saccharine",
+    "Confident but not loud",
+    "Descriptive and sensory",
+    "Gently aspirational",
+    "Occasionally playful (especially on menswear fragrance and quirky bags)"
+  ],
+
+  "voice_principles": [
+    "Curated, not discounted — celebrate selection and provenance, not price cuts",
+    "Storytelling, not specs-dumping — lead with what a piece evokes before listing materials",
+    "Inviting, not instructive — 'discover', 'step into', 'explore' rather than 'buy now', 'don't miss out'",
+    "Designer-forward, not house-brand — name the maker and the country of craft",
+    "Understated luxury, not loud luxury — 'elegance', 'charm', 'timeless' rather than 'luxury', 'exclusive deal'",
+    "Personal, not generic — frame the product as becoming part of the reader's own story"
+  ],
+
+  "copywriting_style": [
+    "Short opening hook that sets a mood ('There's something irresistibly personal about charm necklaces')",
+    "Sentence-level sensory detail (floral motifs, hand-enamelled, delicate, whimsical)",
+    "Named-designer callouts within collection copy",
+    "Soft CTAs framed as invitations ('Discover', 'Explore', 'Start your charm story')",
+    "Frequent use of em-dashes and gentle rhetorical questions on blog content",
+    "Mild use of bullet-style benefit ticks on category pages (e.g., 'Unique decor items sourced from independent makers')",
+    "Blog content is slightly more casual and chatty than product/collection copy, but still on-brand"
+  ],
+
+  "vocabulary_favour": [
+    "curated",
+    "handcrafted",
+    "hand-enamelled",
+    "artisan",
+    "thoughtfully selected",
+    "timeless",
+    "elegant",
+    "whimsical",
+    "storytelling",
+    "charm",
+    "designer",
+    "European",
+    "French",
+    "Spanish",
+    "Australian",
+    "unique",
+    "signature piece",
+    "wearable keepsake",
+    "effortlessly chic",
+    "beyond mainstream",
+    "exclusivity",
+    "personal narrative",
+    "discover",
+    "explore",
+    "step into"
+  ],
+
+  "vocabulary_avoid": [
+    "cheap",
+    "bargain",
+    "lowest price",
+    "dupe",
+    "fast fashion",
+    "mass-market",
+    "basic",
+    "generic",
+    "luxury (used as a self-claim without context — the site uses it sparingly and only when pulling from vendor copy)",
+    "fine jewellery (the assortment is predominantly gold-plated brass costume/fashion jewellery — do not imply solid gold or precious metal)",
+    "limited time only / hurry / don't miss out (brand avoids hard-urgency language)",
+    "iconic (reserved, not overused)"
+  ],
+
+  "target_audience": {
+    "primary": "Style-conscious women aged roughly 30–65 in Australia (especially Sydney and Canberra catchments) who value craftsmanship, European design, and individuality over mainstream chain-store fashion; shop for jewellery, accessories, and investment wardrobe pieces.",
+    "secondary": "Home and lifestyle shoppers looking for design-led homeware, fragrance, and decor from independent makers (candles, cushions, lighting, ceramics).",
+    "tertiary": "Men buying for themselves (Adolfo Dominguez tailoring, Mr.Boho eyewear, Solid State/Men's Republic fragrance and accessories) and parents/grandparents shopping the kids assortment (Alimrose, ES Kids, Fox and Fallow).",
+    "gift_shoppers": "Significant — navigation includes price-band gift collections ($50 / $100 / $150 / $250) and 'Gift Ideas' landing page. Copy repeatedly frames pieces as 'the perfect gift' alongside self-treat occasions. Skew: women buying for women (birthdays, anniversaries, Mother's Day, Christmas); men buying jewellery for partners."
+  },
+
+  "emotional_resonance": [
+    "Feeling of having discovered something others haven't",
+    "Quiet confidence — expressing personal style without shouting",
+    "Connection to craft and maker story",
+    "Nostalgia and whimsy (especially Les Néréides / N2 pieces with animal and nature motifs)",
+    "Pride in gifting something meaningful",
+    "Permission to indulge in small, considered luxuries"
+  ],
+  "feeling_created": "The customer feels they've stepped into a curated, slightly romantic world — one where pieces feel personal, thoughtfully chosen, and quietly elevated above what the high street offers.",
+
+  "examples": {
+    "on_brand": [
+      "Curated Elegance for the Style-Conscious. Discover artisan jewellery, fashion, and homeware from standout Australian and European designers. Thoughtfully selected, never mainstream.",
+      "Step into the whimsical world of Les Néréides — where storytelling meets sophistication in every piece.",
+      "Every piece tells a story — your story.",
+      "Discover the romantic soul of Paris, delivered with love from Australia.",
+      "Style isn't just what you see — it's what you feel at home in."
+    ],
+    "off_brand": [
+      "HUGE SALE — 70% off everything, today only!",
+      "Shop the cheapest designer dupes online.",
+      "The #1 jewellery store in Australia — don't miss out!",
+      "These earrings are basically the same as [competitor brand] but half the price.",
+      "Premium fine jewellery crafted from solid gold. (Incorrect — category is predominantly gold-plated costume jewellery.)"
+    ]
+  },
+
+  "platform_nuances": {
+    "website": "Lyrical and inviting on collection and brand pages; more functional and descriptive on PDPs (mixes narrative opener with vendor-supplied specs, materials, and dimensions). Designer heritage is always named. Soft CTAs ('Discover', 'Explore', 'Shop').",
+    "instagram": "Bio reads 'Curated designer fashion, jewellery, homeware & more. Visit us in Sydney & Canberra 🌏 Shipping worldwide from 🇦🇺'. Light use of emojis (globe, flag). Primary platform for visual storytelling and new-arrival highlights.",
+    "boutiques": "Physical retail presence in Sydney and Canberra (referenced on Instagram bio and 'Stores' nav item). Tone should be warmer and more personal in-store-focused content.",
+    "email": "Signup incentive is 10% off first order + 'email only offers'. VIP-list framing ('join our VIP list'). Avoid heavy discounting language in body copy; lead with curation, new arrivals, and gifting edits."
+  },
+
+  "forbidden_claims": [
+    "Do not describe the jewellery assortment as 'fine jewellery' unless the specific SKU is solid precious metal — most Les Néréides / N2 pieces are gold-plated brass with hand-painted enamel.",
+    "Do not claim 'solid gold' or 'sterling silver' unless the product spec confirms it.",
+    "Do not use 'hypoallergenic' as a blanket claim — only where the product spec states it (e.g., 'nickel free' on specific N2 pieces is observed).",
+    "Do not claim 'sustainable', 'ethical', 'eco', or 'organic' as a brand-wide position — the site has not made a verified ethical/sustainability claim brand-wide. Individual collection copy uses 'conscious living' and 'ethically selected' softly on home decor; treat these as page-specific, not universal.",
+    "Do not claim 'handmade in Australia' for products sourced from European designers — call out country of craft accurately (France, Spain, Italy, UK, etc.).",
+    "Do not use 'clinically proven', 'dermatologist approved', or therapeutic claims on fragrance, skincare, or personal care products.",
+    "Do not invent awards, press mentions, or certifications — none are referenced on-site."
+  ],
+  "competitor_policy": "Never mention competitors by name. The site does not reference competitors anywhere in its copy; all content centres on the stocked designers and Love Persimmon's own curation.",
+
+  "philanthropy": {
+    "initiative": "",
+    "cause": "",
+    "usage_note": "No philanthropy, cause, or donation initiative is referenced on the website, Instagram bio, or Facebook bio. Do not invent or imply one."
+  },
+
+  "signature_phrases": [
+    "Curated Elegance for the Style-Conscious",
+    "Thoughtfully selected, never mainstream",
+    "Every piece tells a story — your story",
+    "Step into the whimsical world of...",
+    "Beyond mainstream retail",
+    "Discover the romantic soul of Paris, delivered with love from Australia",
+    "Artisan jewellery, fashion, and homeware"
+  ],
+
+  "seo_notes": {
+    "brand_keyword_examples": [
+      "Les Néréides Australia",
+      "N2 by Les Néréides charms Australia",
+      "designer jewellery Sydney",
+      "French enamel jewellery Australia",
+      "curated designer homeware Australia",
+      "unique gifts under $100 Australia"
+    ],
+    "intent_alignment": "Content should target three intent clusters: (1) branded designer searches (Les Néréides, N2, Adolfo Dominguez, Vendula, Roberto Verino + 'Australia' / 'Sydney'); (2) category-plus-descriptor searches ('charm necklace Australia', 'quirky bags', 'Spanish clothing Australia', 'handmade statement earrings'); (3) gift-intent searches ('unique gift ideas', 'jewellery gift under $100', 'housewarming gifts'). Blog content observed is already servicing cluster 2 and 3."
+  },
+
+  "versioning": {
+    "version": "1.0",
+    "last_updated": "2026-04-17",
+    "source": "https://www.lovepersimmon.com.au (home, /collections/charms-necklaces, /collections/les-nereides, /collections/earrings, /collections/home-decor, /blogs/news, product copy); Instagram @lovepersimmonaustralia bio; Facebook /LovePersimmon bio."
+  }
+}
