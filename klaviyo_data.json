@@ -24,12 +24,12 @@
       "mr_boho": "TsksFG"
     }
   },
-  "generated_at": "2026-04-17T08:11:07.746Z",
+  "generated_at": "2026-04-17T19:00:05.665Z",
   "api_revision": "2024-10-15",
   "brands": {
     "les_nereides": {
       "brand": "Les Néréides Australia",
-      "fetched_at": "2026-04-17T08:11:07.747Z",
+      "fetched_at": "2026-04-17T19:00:05.671Z",
       "error": null,
       "account_id": "X5HPYk",
       "account_name": "Les Nereides",
@@ -262,7 +262,7 @@
         {
           "id": "01KP9RDJ5H2K9308N02H7W45T3",
           "name": "Week 16 17th APR l AXOP - Paris Newsletter",
-          "status": "Sending",
+          "status": "Sent",
           "created_at": "2026-04-15T23:42:57.203300+00:00",
           "send_time": "2026-04-17T08:00:00+00:00"
         },
@@ -547,7 +547,7 @@
     },
     "love_persimmon": {
       "brand": "Love Persimmon",
-      "fetched_at": "2026-04-17T08:11:22.448Z",
+      "fetched_at": "2026-04-17T19:00:21.548Z",
       "error": null,
       "account_id": "Yq6kpL",
       "account_name": "Love Persimmon",
@@ -973,7 +973,7 @@
     },
     "roberto_verino": {
       "brand": "Roberto Verino ANZ",
-      "fetched_at": "2026-04-17T08:11:37.284Z",
+      "fetched_at": "2026-04-17T19:00:38.701Z",
       "error": null,
       "account_id": "QQkjxP",
       "account_name": "Roberto Verino",
@@ -1300,7 +1300,7 @@
     },
     "mr_boho": {
       "brand": "Mr. Boho",
-      "fetched_at": "2026-04-17T08:11:51.585Z",
+      "fetched_at": "2026-04-17T19:00:53.701Z",
       "error": null,
       "account_id": "TsksFG",
       "account_name": "Mr.Boho",
