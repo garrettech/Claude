@@ -4,7 +4,7 @@
   "api_revision": "2024-10-15",
   "brands": {
     "les_nereides": {
-      "brand": "Les Néréides Australia",
+      "brand": "Les N\u00e9r\u00e9ides Australia",
       "fetched_at": "2026-04-17T07:42:25.770Z",
       "error": null,
       "account_id": "X5HPYk",
@@ -980,7 +980,7 @@
       "recent_campaigns": [
         {
           "id": "01KNV2WH52XXHSJGW5YRYQFDVT",
-          "name": "Week 16 l 18th April Points Balance Reminder — Pre Mother's Day (Apr 2026)",
+          "name": "Week 16 l 18th April Points Balance Reminder \u2014 Pre Mother's Day (Apr 2026)",
           "status": "Draft",
           "created_at": "2026-04-10T06:57:16.966476+00:00",
           "send_time": null
@@ -1667,7 +1667,7 @@
       "recent_campaigns": [
         {
           "id": "01KPA1TAK50SPSK29XZWSMV137",
-          "name": "AI Generated: Unlock the Secrets of Understated Fashion 🌟",
+          "name": "AI Generated: Unlock the Secrets of Understated Fashion \ud83c\udf1f",
           "status": "Draft",
           "created_at": "2026-04-16T02:27:12.616595+00:00",
           "send_time": null
@@ -2641,6 +2641,37 @@
           "name": "Form completed by profile"
         }
       ]
+    }
+  },
+  "_readme": {
+    "description": "Klaviyo multi-brand configuration and metadata snapshot. Updated daily at 5am AEST.",
+    "purpose": "ID lookup reference only. Use to find account, list, segment, metric, campaign, and flow IDs.",
+    "contains": [
+      "account details",
+      "list IDs and names",
+      "segment IDs and names",
+      "20 most recent campaign IDs/names/status",
+      "all flow IDs/names/status",
+      "available metric IDs"
+    ],
+    "does_not_contain": [
+      "opens",
+      "clicks",
+      "conversions",
+      "revenue",
+      "engagement rates",
+      "subscriber counts",
+      "campaign content or subject lines",
+      "flow step logic or triggers",
+      "profile-level data"
+    ],
+    "do_not_use_for": "Performance analysis, reporting, or benchmarking. Use live Klaviyo MCP calls for that.",
+    "mcp_note": "Klaviyo MCP connector is scoped to ONE account at a time. Metric IDs from other brands will be rejected until connector is switched to the correct account.",
+    "account_ids": {
+      "les_nereides": "X5HPYk",
+      "love_persimmon": "Yq6kpL",
+      "roberto_verino": "QQkjxP",
+      "mr_boho": "TsksFG"
     }
   }
 }
