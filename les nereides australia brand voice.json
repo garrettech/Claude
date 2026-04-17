@@ -1,0 +1,179 @@
+{
+  "brand_name": "Les Néréides Australia",
+  "market": "Australia",
+  "website_url": "lesnereidesaustralia.com.au",
+  "category": "French luxury costume jewellery",
+  "positioning": "French luxury jewellery brand founded in 1980, known for whimsical, handcrafted, hand-painted costume jewellery designed and assembled in Paris. Inspired by art, nature, and emotions.",
+  "spelling_convention": "British/Australian English (jewellery, colour, favour, personalise, organise, etc.)",
+
+  "about": {
+    "founded": 1980,
+    "origin": "Paris, France",
+    "craft_method": "Hand-painted and crafted in Paris",
+    "mission": "To create emotionally resonant, artistically inspired jewellery that tells stories and celebrates individuality."
+  },
+
+  "manifesto": "Jewellery should be a poetic expression of individuality, emotions, and nature's beauty. Les Néréides pieces are not just accessories — they are wearable stories.",
+
+  "brand_pillars": [
+    { "pillar": "Artistry", "description": "Jewellery as an expressive, creative form." },
+    { "pillar": "Craftsmanship", "description": "Exceptional quality via traditional handcrafting." },
+    { "pillar": "Emotion", "description": "Designs that resonate with personal memories." },
+    { "pillar": "Nature & Culture", "description": "Rich references from nature and fine art." },
+    { "pillar": "Philanthropy", "description": "Giving back through the Les Néréides Loves Animals initiative." }
+  ],
+
+  "usp": [
+    "Artistic inspiration — jewellery inspired by nature, art, and emotions.",
+    "Handcrafted excellence — meticulously hand-painted and assembled in Paris.",
+    "Emotional connection — pieces designed to evoke memories and feelings.",
+    "Philanthropy — supports animal welfare through dedicated collections."
+  ],
+
+  "tone_descriptors": [
+    "poetic",
+    "artistic",
+    "emotive",
+    "elegant",
+    "sophisticated yet approachable",
+    "story-led",
+    "evocative",
+    "whimsical",
+    "delicate"
+  ],
+
+  "voice_principles": [
+    "Poetic, not plain",
+    "Artistic, not generic",
+    "Emotive, not transactional",
+    "Elegant, not ostentatious"
+  ],
+
+  "copywriting_style": [
+    "Descriptive and evocative language",
+    "Rich storytelling",
+    "Sophisticated, yet approachable tone",
+    "Strong focus on handcrafting and meaning"
+  ],
+
+  "vocabulary_favour": [
+    "handcrafted",
+    "hand-painted",
+    "poetic",
+    "whimsical",
+    "expressive",
+    "meaningful",
+    "artistry",
+    "Parisian",
+    "crafted in Paris",
+    "delicate",
+    "storytelling",
+    "wearable story",
+    "wearable poetry",
+    "evocative",
+    "emotive",
+    "memory",
+    "emotion",
+    "individuality",
+    "nature-inspired",
+    "art-inspired",
+    "treasured"
+  ],
+
+  "vocabulary_avoid": [
+    "cheap",
+    "bargain",
+    "best price",
+    "lowest price",
+    "mass-produced",
+    "trendy",
+    "on-trend",
+    "basic",
+    "fast fashion",
+    "generic",
+    "everyday accessory",
+    "unmissable deal",
+    "overly pushy sales language",
+    "competitor brand names",
+    "fine jewellery (product is costume jewellery — do not imply precious metals or gemstones unless explicitly verified)"
+  ],
+
+  "target_audience": {
+    "primary": "Women seeking expressive, artistic jewellery for self-expression and emotional connection.",
+    "secondary": "Art enthusiasts who appreciate culture, craft, and storytelling.",
+    "tertiary": "Ethical consumers drawn to brands with heart and purpose, including animal welfare philanthropy.",
+    "gift_shoppers": "Shoppers looking for meaningful, story-led gifts that carry emotional resonance rather than purely aesthetic appeal."
+  },
+
+  "emotional_resonance": [
+    "Desire for uniqueness and self-expression",
+    "Connection to artistry, culture, and nature",
+    "Emotional storytelling through jewellery"
+  ],
+
+  "feeling_created": "A sense of wonder, nostalgia, and emotional connection. The wearer feels cherished, unique, and connected to the poetry of art and nature.",
+
+  "examples": {
+    "on_brand": [
+      "Each piece tells a story, a memory, an emotion.",
+      "Handcrafted poetry in the form of jewellery.",
+      "Hand-painted in Paris, worn anywhere in the world.",
+      "A wearable story, shaped by the hands of Parisian artisans."
+    ],
+    "off_brand": [
+      "Best prices on trendy jewellery.",
+      "Mass-produced accessories for every occasion.",
+      "Don't miss our unbeatable jewellery deals.",
+      "The hottest on-trend looks for less."
+    ]
+  },
+
+  "platform_nuances": {
+    "website": "Story-rich product and collection pages that emphasise artistry, symbolism, and craftsmanship. Copy leads with emotion before function.",
+    "instagram": "Visual storytelling and inspiration. Captions are poetic, short, and evocative rather than product-spec led.",
+    "boutiques": "Immersive, elegant in-store experiences. In-store language mirrors online: story-first, emotionally resonant."
+  },
+
+  "forbidden_claims": [
+    "Never describe the product as fine jewellery — it is costume jewellery.",
+    "Never claim precious metals or gemstones unless the specific product has been verified to contain them.",
+    "Never make hypoallergenic or allergen-safe claims without verification.",
+    "Never state production origin other than Paris.",
+    "Never make comparative or superlative claims against competitors (best, better than, cheaper than).",
+    "Never invent awards, press mentions, or celebrity endorsements."
+  ],
+
+  "competitor_policy": "Never mention competitor brands by name. Never compare Les Néréides to other jewellery brands directly. Where differentiation is needed, position against concepts (mass-produced jewellery, generic accessories, fast-fashion jewellery) rather than named competitors.",
+
+  "philanthropy": {
+    "initiative": "Les Néréides Loves Animals",
+    "cause": "Animal welfare",
+    "usage_note": "Mention where relevant and verified. Do not use as a manipulative CTA or guilt-driven appeal. Framed as a genuine expression of the Emotion and Nature & Culture pillars."
+  },
+
+  "signature_phrases": [
+    "wearable stories",
+    "handcrafted in Paris",
+    "hand-painted in Paris",
+    "poetry in jewellery form",
+    "artistry you can wear"
+  ],
+
+  "seo_notes": {
+    "brand_keyword_examples": [
+      "French jewellery Australia",
+      "hand-painted jewellery",
+      "handcrafted French jewellery",
+      "whimsical jewellery Australia",
+      "Parisian jewellery",
+      "Les Néréides Australia"
+    ],
+    "intent_alignment": "Prioritise emotional and gifting intent over transactional phrasing. Educational blog content should lead with art, craft, and story; product and collection pages should weave SEO keywords into a narrative rather than a spec sheet."
+  },
+
+  "versioning": {
+    "version": "1.0",
+    "last_updated": "",
+    "source": "Les Néréides Australia Tone of Voice document"
+  }
+}
