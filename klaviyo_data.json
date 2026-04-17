@@ -1,11 +1,35 @@
 {
-  "generated_at": "2026-04-17T07:42:25.769Z",
-  "generated_by": "fetch-klaviyo-data.js",
+  "_readme": {
+    "description": "Klaviyo multi-brand data: configuration metadata + 30-day performance metrics. Updated daily at 5am AEST.",
+    "contains": [
+      "account details",
+      "list IDs/names",
+      "segment IDs/names",
+      "20 most recent campaigns",
+      "all flows",
+      "metric IDs",
+      "30-day performance stats (opens, clicks, revenue, bounces, unsubscribes, new subscribers)"
+    ],
+    "does_not_contain": [
+      "campaign content/subject lines",
+      "flow step logic",
+      "profile-level data",
+      "per-campaign performance breakdown"
+    ],
+    "mcp_note": "For per-campaign or per-flow breakdowns, use live Klaviyo MCP calls. MCP is scoped to one account at a time.",
+    "account_ids": {
+      "les_nereides": "X5HPYk",
+      "love_persimmon": "Yq6kpL",
+      "roberto_verino": "QQkjxP",
+      "mr_boho": "TsksFG"
+    }
+  },
+  "generated_at": "2026-04-17T08:11:07.746Z",
   "api_revision": "2024-10-15",
   "brands": {
     "les_nereides": {
-      "brand": "Les N\u00e9r\u00e9ides Australia",
-      "fetched_at": "2026-04-17T07:42:25.770Z",
+      "brand": "Les Néréides Australia",
+      "fetched_at": "2026-04-17T08:11:07.747Z",
       "error": null,
       "account_id": "X5HPYk",
       "account_name": "Les Nereides",
@@ -14,191 +38,164 @@
         {
           "id": "QVxjaK",
           "name": "Canberra LN Customers",
-          "created": "2023-11-08T01:42:50+00:00",
-          "updated": "2023-11-08T01:42:50+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2023-11-08T01:42:50+00:00"
         },
         {
           "id": "R8Vup8",
           "name": "Re-engage List 1",
-          "created": "2025-03-18T00:07:28+00:00",
-          "updated": "2025-03-18T00:30:58+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2025-03-18T00:07:28+00:00"
         },
         {
           "id": "RB7x5f",
           "name": "VIP List-Forooz",
-          "created": "2025-10-09T02:58:26+00:00",
-          "updated": "2025-10-09T02:58:26+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-10-09T02:58:26+00:00"
         },
         {
           "id": "RTRiE7",
           "name": "VIP Invite_21/11/25",
-          "created": "2025-10-21T06:15:07+00:00",
-          "updated": "2025-10-21T06:15:07+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-10-21T06:15:07+00:00"
         },
         {
           "id": "RavvAg",
           "name": "Chatswood VIPs",
-          "created": "2025-10-09T01:22:15+00:00",
-          "updated": "2025-10-09T01:22:15+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-10-09T01:22:15+00:00"
         },
         {
           "id": "RpfZWZ",
           "name": "VIPs Chatswood List",
-          "created": "2025-10-09T03:59:30+00:00",
-          "updated": "2025-10-09T03:59:30+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-10-09T03:59:30+00:00"
         },
         {
           "id": "S2yy3e",
           "name": "Re-engage List 6",
-          "created": "2025-03-18T00:37:02+00:00",
-          "updated": "2025-03-18T00:37:07+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2025-03-18T00:37:02+00:00"
         },
         {
           "id": "SLeDMY",
           "name": "Exclusion List- Chatswood Chase RSVPed",
-          "created": "2025-10-15T01:15:41+00:00",
-          "updated": "2025-10-15T01:15:41+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-10-15T01:15:41+00:00"
         },
         {
           "id": "SMe3WL",
           "name": "LN CBR customers who didnt visit LP CBR",
-          "created": "2024-12-05T03:18:23+00:00",
-          "updated": "2024-12-05T03:18:23+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2024-12-05T03:18:23+00:00"
         },
         {
           "id": "Smy5tG",
           "name": "Re-engage List 4",
-          "created": "2025-03-18T00:29:57+00:00",
-          "updated": "2025-03-18T00:30:38+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2025-03-18T00:29:57+00:00"
         },
         {
           "id": "SsBNb8",
           "name": "Media List",
-          "created": "2025-07-23T05:03:58+00:00",
-          "updated": "2025-07-23T05:03:58+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-07-23T05:03:58+00:00"
         },
         {
           "id": "SwV6ct",
           "name": "Re-engage List 2",
-          "created": "2025-03-18T00:16:54+00:00",
-          "updated": "2025-03-18T00:31:13+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2025-03-18T00:16:54+00:00"
         },
         {
           "id": "T8m9jP",
           "name": "Media List (May 2025 Updated_From Kelly)",
-          "created": "2025-10-09T03:27:05+00:00",
-          "updated": "2025-10-09T03:27:05+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-10-09T03:27:05+00:00"
         },
         {
           "id": "TDHriC",
           "name": "LIS Sydney 2025",
-          "created": "2025-02-19T01:55:25+00:00",
-          "updated": "2025-03-20T07:08:08+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2025-02-19T01:55:25+00:00"
         },
         {
           "id": "U5S7ru",
           "name": "Newsletter",
-          "created": "2023-05-22T01:19:07+00:00",
-          "updated": "2023-06-23T02:21:08+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2023-05-22T01:19:07+00:00"
         },
         {
           "id": "UYQc4s",
           "name": "Remove from Mother's Day Emails",
-          "created": "2026-04-11T02:19:18+00:00",
-          "updated": "2026-04-11T02:19:18+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2026-04-11T02:19:18+00:00"
         },
         {
           "id": "UjtHGq",
           "name": "Re-engage List 3",
-          "created": "2025-03-18T00:25:44+00:00",
-          "updated": "2025-03-18T00:31:30+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2025-03-18T00:25:44+00:00"
         },
         {
           "id": "UkqXKF",
           "name": "Re-engage List 5",
-          "created": "2025-03-18T00:31:45+00:00",
-          "updated": "2025-03-18T00:31:57+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2025-03-18T00:31:45+00:00"
         },
         {
           "id": "V5x7av",
           "name": "Forooz List- New",
-          "created": "2025-10-16T22:32:53+00:00",
-          "updated": "2025-10-16T22:32:53+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-10-16T22:32:53+00:00"
         },
         {
           "id": "Vwb5JN",
           "name": "Wholesale Customers",
-          "created": "2024-04-03T03:58:20+00:00",
-          "updated": "2024-04-03T03:58:20+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2024-04-03T03:58:20+00:00"
         },
         {
           "id": "W4pkLY",
           "name": "Non-SMS",
-          "created": "2023-08-16T05:34:54+00:00",
-          "updated": "2023-08-16T05:34:54+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2023-08-16T05:34:54+00:00"
         },
         {
           "id": "WYe3mi",
           "name": "LIS 2026",
-          "created": "2026-02-18T00:20:22+00:00",
-          "updated": "2026-02-18T00:20:22+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2026-02-18T00:20:22+00:00"
         },
         {
           "id": "WjYWAe",
           "name": "Customer Survey Answers from Google Forms",
-          "created": "2024-09-26T04:48:57+00:00",
-          "updated": "2024-09-26T05:12:01+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2024-09-26T04:48:57+00:00"
         },
         {
           "id": "WsfUjL",
           "name": "Redbook Influencers",
-          "created": "2025-10-08T22:30:48+00:00",
-          "updated": "2025-10-08T22:30:48+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-10-08T22:30:48+00:00"
         },
         {
           "id": "Y7VMRb",
           "name": "Melbourne store customers",
-          "created": "2024-10-24T05:35:20+00:00",
-          "updated": "2024-10-24T05:35:20+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2024-10-24T05:35:20+00:00"
         },
         {
           "id": "Yd7EHF",
           "name": "SMS Subscribers",
-          "created": "2023-05-22T01:19:10+00:00",
-          "updated": "2023-05-22T01:19:10+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2023-05-22T01:19:10+00:00"
         },
         {
           "id": "YsazgQ",
           "name": "Burwood VIPs",
-          "created": "2025-10-15T03:12:24+00:00",
-          "updated": "2025-10-15T03:12:24+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-10-15T03:12:24+00:00"
         }
       ],
       "total_lists": 27,
@@ -265,7 +262,7 @@
         {
           "id": "01KP9RDJ5H2K9308N02H7W45T3",
           "name": "Week 16 17th APR l AXOP - Paris Newsletter",
-          "status": "Scheduled",
+          "status": "Sending",
           "created_at": "2026-04-15T23:42:57.203300+00:00",
           "send_time": "2026-04-17T08:00:00+00:00"
         },
@@ -515,356 +512,42 @@
       ],
       "total_active_flows": 6,
       "total_flows": 12,
-      "available_metrics": [
-        {
-          "id": "QUaC9u",
-          "name": "Received Email"
-        },
-        {
-          "id": "QVReKL",
-          "name": "Marsello - Placed Order"
-        },
-        {
-          "id": "QVWeqs",
-          "name": "Checkout Started - Instant Audiences"
-        },
-        {
-          "id": "QWLSkm",
-          "name": "Failed to Deliver Automated Response SMS"
-        },
-        {
-          "id": "QYMSuS",
-          "name": "Fulfilled Order"
-        },
-        {
-          "id": "QZNqVy",
-          "name": "Ticket Created"
-        },
-        {
-          "id": "R3q8FK",
-          "name": "Marked Email as Spam"
-        },
-        {
-          "id": "RLwnn2",
-          "name": "Merged Profile"
-        },
-        {
-          "id": "RMMpCM",
-          "name": "Coupon Used"
-        },
-        {
-          "id": "RNaNnd",
-          "name": "Marsello - Points Awarded"
-        },
-        {
-          "id": "RPyyc7",
-          "name": "Page Viewed - Instant Audiences"
-        },
-        {
-          "id": "RmFPdX",
-          "name": "Shippit Tracking Status"
-        },
-        {
-          "id": "RmN2gg",
-          "name": "Product Viewed - Instant Audiences"
-        },
-        {
-          "id": "RmgLrs",
-          "name": "Marked Out for Delivery"
-        },
-        {
-          "id": "Rrnwjz",
-          "name": "Added to Cart"
-        },
-        {
-          "id": "RzMUWY",
-          "name": "Unsubscribed from SMS Marketing"
-        },
-        {
-          "id": "S3SmRW",
-          "name": "Subscribed to Email Marketing"
-        },
-        {
-          "id": "SCSt9Z",
-          "name": "Unsubscribed from SMS Transactional"
-        },
-        {
-          "id": "SJh8gf",
-          "name": "Marsello - Ordered Product"
-        },
-        {
-          "id": "SMdKZm",
-          "name": "Refunded Order"
-        },
-        {
-          "id": "SPQ2ce",
-          "name": "Bounced Email"
-        },
-        {
-          "id": "SZxCW5",
-          "name": "Received Push"
-        },
-        {
-          "id": "Sb5Qhq",
-          "name": "Submitted Search"
-        },
-        {
-          "id": "ScNXzB",
-          "name": "Received SMS"
-        },
-        {
-          "id": "SrQg5P",
-          "name": "Updated Email Preferences"
-        },
-        {
-          "id": "SujD4L",
-          "name": "Form completed by profile"
-        },
-        {
-          "id": "TSzxsJ",
-          "name": "Opened Text"
-        },
-        {
-          "id": "TWCATd",
-          "name": "Active on Site"
-        },
-        {
-          "id": "TZeR66",
-          "name": "Clicked SMS"
-        },
-        {
-          "id": "Tfsqav",
-          "name": "Collection Viewed - Instant Audiences"
-        },
-        {
-          "id": "TgUpRZ",
-          "name": "Item Added To Cart - Instant Audiences"
-        },
-        {
-          "id": "TndNtt",
-          "name": "Subscribed to SMS Marketing"
-        },
-        {
-          "id": "TqeNBY",
-          "name": "Ordered Product"
-        },
-        {
-          "id": "TxsrAZ",
-          "name": "Added to Cart"
-        },
-        {
-          "id": "U8949W",
-          "name": "Delivered Shipment"
-        },
-        {
-          "id": "UASgwt",
-          "name": "Viewed Collection"
-        },
-        {
-          "id": "UATkeg",
-          "name": "Unsubscribed from List"
-        },
-        {
-          "id": "UAwfi7",
-          "name": "Subscribed to SMS Transactional"
-        },
-        {
-          "id": "UBXTpk",
-          "name": "Relayed SMS"
-        },
-        {
-          "id": "UCfTGH",
-          "name": "Dropped Email"
-        },
-        {
-          "id": "UKjeYd",
-          "name": "Manually Suppressed from Email Marketing"
-        },
-        {
-          "id": "UNE3qX",
-          "name": "Bounce suppression added"
-        },
-        {
-          "id": "UYyQ5R",
-          "name": "Marsello - Activity"
-        },
-        {
-          "id": "Ub6tX8",
-          "name": "Cart viewed / checkout started - Instant Audiences"
-        },
-        {
-          "id": "UdBBKx",
-          "name": "Subscribed to List"
-        },
-        {
-          "id": "UhDNx9",
-          "name": "Unsubscribed from Email Marketing"
-        },
-        {
-          "id": "UhfVmp",
-          "name": "Skipped Send"
-        },
-        {
-          "id": "Uq8zpR",
-          "name": "Fulfilled Partial Order"
-        },
-        {
-          "id": "UszqQU",
-          "name": "Invalid Email suppression added"
-        },
-        {
-          "id": "UwGZLJ",
-          "name": "Marsello - Ordered Product From Category"
-        },
-        {
-          "id": "UzDDvQ",
-          "name": "Checkout Started"
-        },
-        {
-          "id": "V52DPu",
-          "name": "Confirmed Shipment"
-        },
-        {
-          "id": "VK4upG",
-          "name": "Clicked Email"
-        },
-        {
-          "id": "VXwmtB",
-          "name": "Cart Viewed - Instant Audiences"
-        },
-        {
-          "id": "VZw8GP",
-          "name": "Marsello - Claimed Reward"
-        },
-        {
-          "id": "VaDFXW",
-          "name": "Sent SMS"
-        },
-        {
-          "id": "VcEG8t",
-          "name": "Placed Order"
-        },
-        {
-          "id": "WAppX3",
-          "name": "Opened Push"
-        },
-        {
-          "id": "WAwBty",
-          "name": "Marsello - Points Redeemed"
-        },
-        {
-          "id": "WUtjhy",
-          "name": "Opened Email"
-        },
-        {
-          "id": "WX5zur",
-          "name": "Received Automated Response SMS"
-        },
-        {
-          "id": "WZ6zCW",
-          "name": "Cancelled Order"
-        },
-        {
-          "id": "Wn5x2j",
-          "name": "Subscribed to Back in Stock"
-        },
-        {
-          "id": "WuLSfa",
-          "name": "Coupon Assigned"
-        },
-        {
-          "id": "WxTUY4",
-          "name": "Marsello - Redeemed Reward"
-        },
-        {
-          "id": "X3GPPP",
-          "name": "Clicked email to unsubscribe"
-        },
-        {
-          "id": "XA6C74",
-          "name": "Failed to Deliver SMS"
-        },
-        {
-          "id": "XxumUb",
-          "name": "Viewed Product"
-        },
-        {
-          "id": "YmnPEz",
-          "name": "Form submitted by profile"
-        },
-        {
-          "id": "YnPhtw",
-          "name": "Bounced Push"
-        },
-        {
-          "id": "YpXLgL",
-          "name": "Manually Unsuppressed from Email Marketing"
-        },
-        {
-          "id": "QYBP79",
-          "name": "unsubscribe_page_submit"
-        },
-        {
-          "id": "RUz8hq",
-          "name": "qualified_form"
-        },
-        {
-          "id": "RYLXcp",
-          "name": "subscribe_page_view"
-        },
-        {
-          "id": "T6YqJE",
-          "name": "Social DM Aggregate"
-        },
-        {
-          "id": "TGYZMT",
-          "name": "Viewed Form"
-        },
-        {
-          "id": "TPYJ94",
-          "name": "viewed_form_step"
-        },
-        {
-          "id": "U55Z29",
-          "name": "bot_protection"
-        },
-        {
-          "id": "UAEbWw",
-          "name": "Inbox Ticket Created"
-        },
-        {
-          "id": "UKdZsQ",
-          "name": "Posted UGC Aggregate"
-        },
-        {
-          "id": "Uk49zB",
-          "name": "Social Comment Aggregate"
-        },
-        {
-          "id": "UsfHtE",
-          "name": "submitted_form_step"
-        },
-        {
-          "id": "VvqTin",
-          "name": "Closed Form"
-        },
-        {
-          "id": "Ww2kVT",
-          "name": "subscribe_page_submit"
-        },
-        {
-          "id": "XhQLNR",
-          "name": "Submitted Form"
-        },
-        {
-          "id": "XvjaPQ",
-          "name": "closed_teaser"
-        }
-      ]
+      "metric_ids": {
+        "received_email": "QUaC9u",
+        "subscribed_email": "S3SmRW",
+        "refunded_order": "SMdKZm",
+        "bounced_email": "SPQ2ce",
+        "ordered_product": "TqeNBY",
+        "unsubscribed_list": "UATkeg",
+        "unsubscribed_email": "UhDNx9",
+        "clicked_email": "VK4upG",
+        "placed_order": "VcEG8t",
+        "opened_email": "WUtjhy"
+      },
+      "performance_30d": {
+        "period_days": 30,
+        "period_end": "2026-04-17",
+        "emails_sent": 162800,
+        "opens_total": 128921,
+        "opens_unique": 22951,
+        "clicks_total": 3697,
+        "clicks_unique": 1542,
+        "placed_orders": 60,
+        "unique_purchasers": 58,
+        "revenue_note": "Revenue totals require Klaviyo Reporting API — use MCP or live API call for revenue data",
+        "bounces": 583,
+        "unsubscribes": 360,
+        "new_subscribers": 387,
+        "refunds": 3,
+        "open_rate_pct": 14.1,
+        "click_rate_pct": 0.95,
+        "unsubscribe_rate_pct": 0.22,
+        "bounce_rate_pct": 0.36
+      }
     },
     "love_persimmon": {
       "brand": "Love Persimmon",
-      "fetched_at": "2026-04-17T07:42:36.517Z",
+      "fetched_at": "2026-04-17T08:11:22.448Z",
       "error": null,
       "account_id": "Yq6kpL",
       "account_name": "Love Persimmon",
@@ -873,79 +556,68 @@
         {
           "id": "QUt32C",
           "name": "Newsletter",
-          "created": "2022-10-19T01:00:15+00:00",
-          "updated": "2023-05-04T06:57:31+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2022-10-19T01:00:15+00:00"
         },
         {
           "id": "Rp2dWp",
           "name": "AD List 3",
-          "created": "2025-03-14T01:52:30+00:00",
-          "updated": "2025-03-14T01:52:30+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-03-14T01:52:30+00:00"
         },
         {
           "id": "RsQPhR",
           "name": "Preview List",
-          "created": "2022-10-19T01:00:16+00:00",
-          "updated": "2022-10-19T01:00:16+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2022-10-19T01:00:16+00:00"
         },
         {
           "id": "SQiNcx",
           "name": "LN CBR customers who didnt visit LP CBR",
-          "created": "2024-12-05T03:10:07+00:00",
-          "updated": "2024-12-05T03:10:07+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2024-12-05T03:10:07+00:00"
         },
         {
           "id": "Sx2E2R",
           "name": "To be removed",
-          "created": "2025-03-17T06:31:42+00:00",
-          "updated": "2025-03-17T06:31:42+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-03-17T06:31:42+00:00"
         },
         {
           "id": "TAm9ap",
           "name": "AD List 4",
-          "created": "2025-03-14T01:56:46+00:00",
-          "updated": "2025-03-14T01:56:46+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-03-14T01:56:46+00:00"
         },
         {
           "id": "TE39sw",
           "name": "AD List 2",
-          "created": "2025-03-14T01:49:20+00:00",
-          "updated": "2025-03-14T01:49:20+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-03-14T01:49:20+00:00"
         },
         {
           "id": "TYEUPy",
           "name": "AD List 5",
-          "created": "2025-03-14T01:59:34+00:00",
-          "updated": "2025-03-14T01:59:34+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-03-14T01:59:34+00:00"
         },
         {
           "id": "UFjJH7",
           "name": "Canberra Customers",
-          "created": "2024-05-01T06:40:04+00:00",
-          "updated": "2024-05-01T06:40:04+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2024-05-01T06:40:04+00:00"
         },
         {
           "id": "XVyXyi",
           "name": "AD List 1",
-          "created": "2025-03-14T00:12:11+00:00",
-          "updated": "2025-03-14T00:12:11+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-03-14T00:12:11+00:00"
         },
         {
           "id": "XfRZAC",
           "name": "SMS Subscribers",
-          "created": "2022-10-19T01:00:20+00:00",
-          "updated": "2022-10-19T01:00:20+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2022-10-19T01:00:20+00:00"
         }
       ],
       "total_lists": 11,
@@ -980,7 +652,7 @@
       "recent_campaigns": [
         {
           "id": "01KNV2WH52XXHSJGW5YRYQFDVT",
-          "name": "Week 16 l 18th April Points Balance Reminder \u2014 Pre Mother's Day (Apr 2026)",
+          "name": "Week 16 l 18th April Points Balance Reminder — Pre Mother's Day (Apr 2026)",
           "status": "Draft",
           "created_at": "2026-04-10T06:57:16.966476+00:00",
           "send_time": null
@@ -1266,312 +938,42 @@
       ],
       "total_active_flows": 8,
       "total_flows": 12,
-      "available_metrics": [
-        {
-          "id": "QQjXvb",
-          "name": "Coupon Assigned"
-        },
-        {
-          "id": "R3YTse",
-          "name": "Unsubscribed from List"
-        },
-        {
-          "id": "R5NCDs",
-          "name": "Viewed Collection"
-        },
-        {
-          "id": "RBwneg",
-          "name": "Active on Site"
-        },
-        {
-          "id": "RDVL27",
-          "name": "Unsubscribed from Email Marketing"
-        },
-        {
-          "id": "RGTVyw",
-          "name": "Marsello - Feedback Received"
-        },
-        {
-          "id": "RLJ57b",
-          "name": "Form submitted by profile"
-        },
-        {
-          "id": "RMX6HM",
-          "name": "Failed to deliver Automated Response SMS"
-        },
-        {
-          "id": "RU27bk",
-          "name": "Viewed Product"
-        },
-        {
-          "id": "RZeBz6",
-          "name": "Bounced Email"
-        },
-        {
-          "id": "RcH4vD",
-          "name": "Added to List"
-        },
-        {
-          "id": "Rfzisy",
-          "name": "Received SMS"
-        },
-        {
-          "id": "RmCiU7",
-          "name": "Fulfilled Order"
-        },
-        {
-          "id": "SAwKf9",
-          "name": "Marsello - Claimed Reward"
-        },
-        {
-          "id": "SCPC9S",
-          "name": "Marsello - Ordered Product"
-        },
-        {
-          "id": "SDGbTg",
-          "name": "Marsello - Points Awarded"
-        },
-        {
-          "id": "SQZLjF",
-          "name": "Marsello - Activity"
-        },
-        {
-          "id": "SRQCst",
-          "name": "Manually Unsuppressed from Email Marketing"
-        },
-        {
-          "id": "SSW2gM",
-          "name": "Added to Cart"
-        },
-        {
-          "id": "SSew9V",
-          "name": "Added to Cart"
-        },
-        {
-          "id": "ShJqbc",
-          "name": "Bounce suppression added"
-        },
-        {
-          "id": "SqY9kq",
-          "name": "Sent SMS"
-        },
-        {
-          "id": "Sx39MX",
-          "name": "Subscribed to Back in Stock"
-        },
-        {
-          "id": "T2494r",
-          "name": "Subscribed to Email Marketing"
-        },
-        {
-          "id": "T3ZbX3",
-          "name": "Clicked SMS"
-        },
-        {
-          "id": "T5qW5c",
-          "name": "Opened Email"
-        },
-        {
-          "id": "T6nKSE",
-          "name": "Marked Out for Delivery"
-        },
-        {
-          "id": "TDyUkD",
-          "name": "Form completed by profile"
-        },
-        {
-          "id": "TM5f3d",
-          "name": "Placed Order"
-        },
-        {
-          "id": "TMEv5z",
-          "name": "Dropped Email"
-        },
-        {
-          "id": "TSHyUh",
-          "name": "Opened Push"
-        },
-        {
-          "id": "U4FzHV",
-          "name": "Subscribed to List"
-        },
-        {
-          "id": "UBZ7Bc",
-          "name": "Delivered Shipment"
-        },
-        {
-          "id": "UKfqgg",
-          "name": "Marsello - Redeemed Reward"
-        },
-        {
-          "id": "UQr5tw",
-          "name": "Failed to Deliver SMS"
-        },
-        {
-          "id": "URQPzF",
-          "name": "Received Email"
-        },
-        {
-          "id": "UWu5V5",
-          "name": "Refunded Order"
-        },
-        {
-          "id": "UscTpe",
-          "name": "Merged Profile"
-        },
-        {
-          "id": "Ux3za7",
-          "name": "Coupon Used"
-        },
-        {
-          "id": "VZPUmn",
-          "name": "Received Automated Response SMS"
-        },
-        {
-          "id": "W46aSk",
-          "name": "Skipped Send"
-        },
-        {
-          "id": "W5hsds",
-          "name": "Marsello - Points Redeemed"
-        },
-        {
-          "id": "W7SUNV",
-          "name": "Active on Site"
-        },
-        {
-          "id": "WCQWXZ",
-          "name": "Unsubscribed from SMS Marketing"
-        },
-        {
-          "id": "WJTXry",
-          "name": "Checkout Started"
-        },
-        {
-          "id": "WLMipC",
-          "name": "Submitted Search"
-        },
-        {
-          "id": "WQGrMt",
-          "name": "Marsello - Placed Order"
-        },
-        {
-          "id": "Wd7rcF",
-          "name": "Clicked email to unsubscribe"
-        },
-        {
-          "id": "WdFpaQ",
-          "name": "Marsello - Ordered Product From Category"
-        },
-        {
-          "id": "XUiNjq",
-          "name": "Clicked Email"
-        },
-        {
-          "id": "XYW4EN",
-          "name": "Ordered Product"
-        },
-        {
-          "id": "XZxiHa",
-          "name": "Marked Email as Spam"
-        },
-        {
-          "id": "XbvL4u",
-          "name": "Manually Suppressed from Email Marketing"
-        },
-        {
-          "id": "XkqPgT",
-          "name": "next purchase"
-        },
-        {
-          "id": "XmV24b",
-          "name": "Cancelled Order"
-        },
-        {
-          "id": "XtzjVf",
-          "name": "Bounced Push"
-        },
-        {
-          "id": "Y6AnxS",
-          "name": "Received Push"
-        },
-        {
-          "id": "Y9HzH7",
-          "name": "Confirmed Shipment"
-        },
-        {
-          "id": "YbAmN5",
-          "name": "Fulfilled Partial Order"
-        },
-        {
-          "id": "YrgQuu",
-          "name": "Subscribed to SMS Marketing"
-        },
-        {
-          "id": "RCb4UF",
-          "name": "viewed_form_step"
-        },
-        {
-          "id": "RHSRwR",
-          "name": "submitted_back_in_stock_form_step"
-        },
-        {
-          "id": "RaYPR4",
-          "name": "Form submitted by profile"
-        },
-        {
-          "id": "S9XV5u",
-          "name": "bot_protection"
-        },
-        {
-          "id": "SrPTbC",
-          "name": "qualified_form"
-        },
-        {
-          "id": "TVgVs9",
-          "name": "submitted_form_step"
-        },
-        {
-          "id": "TwiK3k",
-          "name": "extension_view"
-        },
-        {
-          "id": "UefLG7",
-          "name": "Viewed Form"
-        },
-        {
-          "id": "VDuDyd",
-          "name": "subscribe_page_view"
-        },
-        {
-          "id": "VfRH5P",
-          "name": "unsubscribe_page_submit"
-        },
-        {
-          "id": "ViJCxP",
-          "name": "extension_submit"
-        },
-        {
-          "id": "W2FEcA",
-          "name": "Closed Form"
-        },
-        {
-          "id": "XJbyEV",
-          "name": "submitted_back_in_stock_form"
-        },
-        {
-          "id": "XP7xH5",
-          "name": "Submitted Form"
-        },
-        {
-          "id": "XbhwZ8",
-          "name": "Form completed by profile"
-        }
-      ]
+      "metric_ids": {
+        "unsubscribed_list": "R3YTse",
+        "unsubscribed_email": "RDVL27",
+        "bounced_email": "RZeBz6",
+        "subscribed_email": "T2494r",
+        "opened_email": "T5qW5c",
+        "placed_order": "TM5f3d",
+        "received_email": "URQPzF",
+        "refunded_order": "UWu5V5",
+        "clicked_email": "XUiNjq",
+        "ordered_product": "XYW4EN"
+      },
+      "performance_30d": {
+        "period_days": 30,
+        "period_end": "2026-04-17",
+        "emails_sent": 35676,
+        "opens_total": 20952,
+        "opens_unique": 3363,
+        "clicks_total": 684,
+        "clicks_unique": 299,
+        "placed_orders": 32,
+        "unique_purchasers": 28,
+        "revenue_note": "Revenue totals require Klaviyo Reporting API — use MCP or live API call for revenue data",
+        "bounces": 289,
+        "unsubscribes": 91,
+        "new_subscribers": 163,
+        "refunds": 1,
+        "open_rate_pct": 9.43,
+        "click_rate_pct": 0.84,
+        "unsubscribe_rate_pct": 0.26,
+        "bounce_rate_pct": 0.81
+      }
     },
     "roberto_verino": {
       "brand": "Roberto Verino ANZ",
-      "fetched_at": "2026-04-17T07:42:47.797Z",
+      "fetched_at": "2026-04-17T08:11:37.284Z",
       "error": null,
       "account_id": "QQkjxP",
       "account_name": "Roberto Verino",
@@ -1580,44 +982,38 @@
         {
           "id": "RP8FAK",
           "name": "RV- Invitation List",
-          "created": "2026-02-24T05:26:36+00:00",
-          "updated": "2026-02-24T05:26:36+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2026-02-24T05:26:36+00:00"
         },
         {
           "id": "SkRrRB",
           "name": "Preview List",
-          "created": "2025-04-04T03:48:18+00:00",
-          "updated": "2025-04-04T03:48:18+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-04-04T03:48:18+00:00"
         },
         {
           "id": "ULimYH",
           "name": "Email List",
-          "created": "2025-04-04T03:48:18+00:00",
-          "updated": "2025-04-08T01:10:47+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2025-04-04T03:48:18+00:00"
         },
         {
           "id": "Ufnkih",
           "name": "Wrong email (Bounced)",
-          "created": "2025-05-02T06:01:11+00:00",
-          "updated": "2025-05-02T06:01:11+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-05-02T06:01:11+00:00"
         },
         {
           "id": "WDEmGp",
           "name": "Media List",
-          "created": "2025-07-23T05:29:08+00:00",
-          "updated": "2025-07-23T05:29:08+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-07-23T05:29:08+00:00"
         },
         {
           "id": "Xgnytd",
           "name": "SMS List",
-          "created": "2025-04-04T03:48:17+00:00",
-          "updated": "2025-04-04T03:48:17+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-04-04T03:48:17+00:00"
         }
       ],
       "total_lists": 6,
@@ -1667,7 +1063,7 @@
       "recent_campaigns": [
         {
           "id": "01KPA1TAK50SPSK29XZWSMV137",
-          "name": "AI Generated: Unlock the Secrets of Understated Fashion \ud83c\udf1f",
+          "name": "AI Generated: Unlock the Secrets of Understated Fashion 🌟",
           "status": "Draft",
           "created_at": "2026-04-16T02:27:12.616595+00:00",
           "send_time": null
@@ -1869,180 +1265,42 @@
       ],
       "total_active_flows": 1,
       "total_flows": 7,
-      "available_metrics": [
-        {
-          "id": "QXdRAL",
-          "name": "Unsubscribed from List"
-        },
-        {
-          "id": "RBc8K5",
-          "name": "Subscribed to Email Marketing"
-        },
-        {
-          "id": "RKRppv",
-          "name": "Clicked Email"
-        },
-        {
-          "id": "RNtDAn",
-          "name": "Received Automated Response SMS"
-        },
-        {
-          "id": "RVugMu",
-          "name": "Submitted Search"
-        },
-        {
-          "id": "RXJaha",
-          "name": "Clicked email to unsubscribe"
-        },
-        {
-          "id": "RdtB8g",
-          "name": "Ordered Product"
-        },
-        {
-          "id": "SZTuCK",
-          "name": "Placed Order"
-        },
-        {
-          "id": "SnSs28",
-          "name": "Checkout Started"
-        },
-        {
-          "id": "SruGcZ",
-          "name": "Unsubscribed from SMS Marketing"
-        },
-        {
-          "id": "SrzRqk",
-          "name": "Marked Out for Delivery"
-        },
-        {
-          "id": "T4vJPC",
-          "name": "Received SMS"
-        },
-        {
-          "id": "TATx6R",
-          "name": "Failed to Deliver Automated Response SMS"
-        },
-        {
-          "id": "TLa3MD",
-          "name": "Marked Email as Spam"
-        },
-        {
-          "id": "Tp2Ldc",
-          "name": "Opened Email"
-        },
-        {
-          "id": "TyhgTY",
-          "name": "Viewed Product"
-        },
-        {
-          "id": "UNjn9e",
-          "name": "Cancelled Order"
-        },
-        {
-          "id": "UbijwB",
-          "name": "Subscribed to Back in Stock"
-        },
-        {
-          "id": "V7egbT",
-          "name": "Bounce suppression added"
-        },
-        {
-          "id": "VULsJg",
-          "name": "Manually Suppressed from Email Marketing"
-        },
-        {
-          "id": "VbsDHF",
-          "name": "Received Email"
-        },
-        {
-          "id": "VpjqBk",
-          "name": "Relayed SMS"
-        },
-        {
-          "id": "VyzVi8",
-          "name": "Bounced Email"
-        },
-        {
-          "id": "W2ktdX",
-          "name": "Subscribed to SMS Marketing"
-        },
-        {
-          "id": "WAKfDH",
-          "name": "Fulfilled Order"
-        },
-        {
-          "id": "WDmvQA",
-          "name": "Clicked SMS"
-        },
-        {
-          "id": "WMe7GS",
-          "name": "Skipped Send"
-        },
-        {
-          "id": "WWsM7Z",
-          "name": "Fulfilled Partial Order"
-        },
-        {
-          "id": "WYStiB",
-          "name": "Added to Cart"
-        },
-        {
-          "id": "WYtMgw",
-          "name": "Unsubscribed from Email Marketing"
-        },
-        {
-          "id": "WzHPVQ",
-          "name": "Delivered Shipment"
-        },
-        {
-          "id": "XBuPT9",
-          "name": "Subscribed to List"
-        },
-        {
-          "id": "XLa6xz",
-          "name": "Active on Site"
-        },
-        {
-          "id": "XMHZyw",
-          "name": "Added to Cart"
-        },
-        {
-          "id": "XNLkJs",
-          "name": "Sent SMS"
-        },
-        {
-          "id": "XVLXVy",
-          "name": "Viewed Collection"
-        },
-        {
-          "id": "XkZNNB",
-          "name": "Dropped Email"
-        },
-        {
-          "id": "Ypb9ac",
-          "name": "Refunded Order"
-        },
-        {
-          "id": "YrMpm5",
-          "name": "Failed to Deliver SMS"
-        },
-        {
-          "id": "RQEZyH",
-          "name": "subscribe_page_view"
-        },
-        {
-          "id": "SrP9QF",
-          "name": "Auto Downgrade Success"
-        },
-        {
-          "id": "XNJyLp",
-          "name": "unsubscribe_page_submit"
-        }
-      ]
+      "metric_ids": {
+        "unsubscribed_list": "QXdRAL",
+        "subscribed_email": "RBc8K5",
+        "clicked_email": "RKRppv",
+        "ordered_product": "RdtB8g",
+        "placed_order": "SZTuCK",
+        "opened_email": "Tp2Ldc",
+        "received_email": "VbsDHF",
+        "bounced_email": "VyzVi8",
+        "unsubscribed_email": "WYtMgw",
+        "refunded_order": "Ypb9ac"
+      },
+      "performance_30d": {
+        "period_days": 30,
+        "period_end": "2026-04-17",
+        "emails_sent": 13436,
+        "opens_total": 6933,
+        "opens_unique": 1540,
+        "clicks_total": 819,
+        "clicks_unique": 250,
+        "placed_orders": 1,
+        "unique_purchasers": 1,
+        "revenue_note": "Revenue totals require Klaviyo Reporting API — use MCP or live API call for revenue data",
+        "bounces": 84,
+        "unsubscribes": 30,
+        "new_subscribers": 29,
+        "refunds": 0,
+        "open_rate_pct": 11.46,
+        "click_rate_pct": 1.86,
+        "unsubscribe_rate_pct": 0.22,
+        "bounce_rate_pct": 0.63
+      }
     },
     "mr_boho": {
       "brand": "Mr. Boho",
-      "fetched_at": "2026-04-17T07:42:58.074Z",
+      "fetched_at": "2026-04-17T08:11:51.585Z",
       "error": null,
       "account_id": "TsksFG",
       "account_name": "Mr.Boho",
@@ -2051,72 +1309,62 @@
         {
           "id": "RWqAqg",
           "name": "Preview List",
-          "created": "2024-02-18T23:43:25+00:00",
-          "updated": "2024-02-18T23:43:25+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2024-02-18T23:43:25+00:00"
         },
         {
           "id": "TVgdCU",
           "name": "Previous stockist of MrBoho",
-          "created": "2024-03-11T02:39:54+00:00",
-          "updated": "2024-04-17T06:27:33+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2024-03-11T02:39:54+00:00"
         },
         {
           "id": "Tfh9Bu",
           "name": "LIS Sydney 2025",
-          "created": "2025-02-19T02:06:01+00:00",
-          "updated": "2025-03-20T07:11:30+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2025-02-19T02:06:01+00:00"
         },
         {
           "id": "UNMCfQ",
           "name": "LIS 2026",
-          "created": "2026-02-18T00:27:02+00:00",
-          "updated": "2026-02-18T00:27:02+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2026-02-18T00:27:02+00:00"
         },
         {
           "id": "VBTBLC",
           "name": "SMS Subscribers",
-          "created": "2024-02-18T23:43:24+00:00",
-          "updated": "2024-02-18T23:43:24+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2024-02-18T23:43:24+00:00"
         },
         {
           "id": "Wj6vJR",
           "name": "LIS 2024",
-          "created": "2024-03-05T04:09:37+00:00",
-          "updated": "2024-04-17T06:26:49+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2024-03-05T04:09:37+00:00"
         },
         {
           "id": "Wk2QsJ",
           "name": "LP Customer 2025",
-          "created": "2025-12-15T04:22:02+00:00",
-          "updated": "2025-12-15T04:22:02+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-12-15T04:22:02+00:00"
         },
         {
           "id": "WtTcPM",
           "name": "Boho from LN",
-          "created": "2024-09-13T05:59:14+00:00",
-          "updated": "2024-09-13T05:59:14+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2024-09-13T05:59:14+00:00"
         },
         {
           "id": "XWHhyk",
           "name": "Newsletter",
-          "created": "2024-02-18T23:43:24+00:00",
-          "updated": "2024-04-17T06:26:29+00:00",
-          "opt_in_process": "single_opt_in"
+          "opt_in_process": "single_opt_in",
+          "created": "2024-02-18T23:43:24+00:00"
         },
         {
           "id": "YuPvkG",
           "name": "Media List",
-          "created": "2025-07-23T05:57:23+00:00",
-          "updated": "2025-07-23T05:57:23+00:00",
-          "opt_in_process": "double_opt_in"
+          "opt_in_process": "double_opt_in",
+          "created": "2025-07-23T05:57:23+00:00"
         }
       ],
       "total_lists": 10,
@@ -2387,291 +1635,38 @@
       ],
       "total_active_flows": 4,
       "total_flows": 11,
-      "available_metrics": [
-        {
-          "id": "QWggdc",
-          "name": "Viewed Product"
-        },
-        {
-          "id": "Rf8mjA",
-          "name": "Opened Text"
-        },
-        {
-          "id": "Rq2N93",
-          "name": "Clicked SMS"
-        },
-        {
-          "id": "RxQwti",
-          "name": "Relayed SMS"
-        },
-        {
-          "id": "Ry3jmA",
-          "name": "Fulfilled Partial Order"
-        },
-        {
-          "id": "RzhiPP",
-          "name": "Subscribed to Back in Stock"
-        },
-        {
-          "id": "S33QKE",
-          "name": "Dropped Email"
-        },
-        {
-          "id": "SB49UQ",
-          "name": "Unsubscribed from Email Marketing"
-        },
-        {
-          "id": "SGrXq9",
-          "name": "Subscribed to SMS Transactional"
-        },
-        {
-          "id": "Scimss",
-          "name": "Cancelled Order"
-        },
-        {
-          "id": "SuNFZS",
-          "name": "Subscribed to Email Marketing"
-        },
-        {
-          "id": "SzrD2T",
-          "name": "Received Automated Response SMS"
-        },
-        {
-          "id": "TSDc8m",
-          "name": "Manually Suppressed from Email Marketing"
-        },
-        {
-          "id": "TU6YBx",
-          "name": "Opened Email"
-        },
-        {
-          "id": "TYJeWV",
-          "name": "Fulfilled Order"
-        },
-        {
-          "id": "TcsFDw",
-          "name": "Failed to Deliver SMS"
-        },
-        {
-          "id": "UK9eJm",
-          "name": "Bounce suppression added"
-        },
-        {
-          "id": "UYSz9Z",
-          "name": "Unsubscribed from SMS Marketing"
-        },
-        {
-          "id": "UnzbJr",
-          "name": "Unsubscribed from List"
-        },
-        {
-          "id": "UsuLSL",
-          "name": "Clicked email to unsubscribe"
-        },
-        {
-          "id": "V3fDbR",
-          "name": "Unsubscribed from SMS Transactional"
-        },
-        {
-          "id": "VBdyeS",
-          "name": "Viewed Collection"
-        },
-        {
-          "id": "VC3sPc",
-          "name": "Subscribed to List"
-        },
-        {
-          "id": "VDDaCd",
-          "name": "Merged Profile"
-        },
-        {
-          "id": "VGwS82",
-          "name": "Received Email"
-        },
-        {
-          "id": "VMa8tq",
-          "name": "Refunded Order"
-        },
-        {
-          "id": "Va95QM",
-          "name": "Active on Site"
-        },
-        {
-          "id": "WEdCBK",
-          "name": "Submitted Search"
-        },
-        {
-          "id": "WMisEu",
-          "name": "Subscribed to SMS Marketing"
-        },
-        {
-          "id": "WWyXmg",
-          "name": "Clicked Email"
-        },
-        {
-          "id": "Wahq3R",
-          "name": "Failed to Deliver Automated Response SMS"
-        },
-        {
-          "id": "WeUEpf",
-          "name": "Marked Email as Spam"
-        },
-        {
-          "id": "Wk9aKF",
-          "name": "Added to Cart"
-        },
-        {
-          "id": "Wqbb63",
-          "name": "Ordered Product"
-        },
-        {
-          "id": "Wu2DnW",
-          "name": "Form completed by profile"
-        },
-        {
-          "id": "X4TYmw",
-          "name": "Confirmed Shipment"
-        },
-        {
-          "id": "XQT6Aa",
-          "name": "Coupon Assigned"
-        },
-        {
-          "id": "Xk3rwz",
-          "name": "Delivered Shipment"
-        },
-        {
-          "id": "Xqjvh7",
-          "name": "Received SMS"
-        },
-        {
-          "id": "XrkBap",
-          "name": "Added to Cart"
-        },
-        {
-          "id": "XzzZXT",
-          "name": "Checkout Started"
-        },
-        {
-          "id": "Y3kxTJ",
-          "name": "Bounced Email"
-        },
-        {
-          "id": "YAXygZ",
-          "name": "Form submitted by profile"
-        },
-        {
-          "id": "YcB4Aw",
-          "name": "Placed Order"
-        },
-        {
-          "id": "YckXi9",
-          "name": "Coupon Used"
-        },
-        {
-          "id": "YiCfN6",
-          "name": "Marked Out for Delivery"
-        },
-        {
-          "id": "YzJkaX",
-          "name": "Sent SMS"
-        },
-        {
-          "id": "QSnY4v",
-          "name": "extension_submit"
-        },
-        {
-          "id": "RDUGas",
-          "name": "Submitted Form"
-        },
-        {
-          "id": "Rvq2F8",
-          "name": "Form submitted by profile"
-        },
-        {
-          "id": "SENRyY",
-          "name": "whatsapp_extension_view"
-        },
-        {
-          "id": "SrRwN8",
-          "name": "closed_teaser"
-        },
-        {
-          "id": "ThPUbB",
-          "name": "submitted_back_in_stock_form"
-        },
-        {
-          "id": "TskzEV",
-          "name": "submitted_form_step"
-        },
-        {
-          "id": "U5mChy",
-          "name": "qualified_form"
-        },
-        {
-          "id": "UteK5t",
-          "name": "whatsapp_extension_submit"
-        },
-        {
-          "id": "V2pVqX",
-          "name": "unsubscribe_page_submit"
-        },
-        {
-          "id": "V6fMG6",
-          "name": "submitted_back_in_stock_form_step"
-        },
-        {
-          "id": "VRMvN3",
-          "name": "Viewed Form"
-        },
-        {
-          "id": "VeLtbq",
-          "name": "viewed_form_step"
-        },
-        {
-          "id": "WSFFcz",
-          "name": "extension_view"
-        },
-        {
-          "id": "XEdpiw",
-          "name": "Closed Form"
-        },
-        {
-          "id": "XvGHPc",
-          "name": "Form completed by profile"
-        }
-      ]
-    }
-  },
-  "_readme": {
-    "description": "Klaviyo multi-brand configuration and metadata snapshot. Updated daily at 5am AEST.",
-    "purpose": "ID lookup reference only. Use to find account, list, segment, metric, campaign, and flow IDs.",
-    "contains": [
-      "account details",
-      "list IDs and names",
-      "segment IDs and names",
-      "20 most recent campaign IDs/names/status",
-      "all flow IDs/names/status",
-      "available metric IDs"
-    ],
-    "does_not_contain": [
-      "opens",
-      "clicks",
-      "conversions",
-      "revenue",
-      "engagement rates",
-      "subscriber counts",
-      "campaign content or subject lines",
-      "flow step logic or triggers",
-      "profile-level data"
-    ],
-    "do_not_use_for": "Performance analysis, reporting, or benchmarking. Use live Klaviyo MCP calls for that.",
-    "mcp_note": "Klaviyo MCP connector is scoped to ONE account at a time. Metric IDs from other brands will be rejected until connector is switched to the correct account.",
-    "account_ids": {
-      "les_nereides": "X5HPYk",
-      "love_persimmon": "Yq6kpL",
-      "roberto_verino": "QQkjxP",
-      "mr_boho": "TsksFG"
+      "metric_ids": {
+        "unsubscribed_email": "SB49UQ",
+        "subscribed_email": "SuNFZS",
+        "opened_email": "TU6YBx",
+        "unsubscribed_list": "UnzbJr",
+        "received_email": "VGwS82",
+        "refunded_order": "VMa8tq",
+        "clicked_email": "WWyXmg",
+        "ordered_product": "Wqbb63",
+        "bounced_email": "Y3kxTJ",
+        "placed_order": "YcB4Aw"
+      },
+      "performance_30d": {
+        "period_days": 30,
+        "period_end": "2026-04-17",
+        "emails_sent": 543,
+        "opens_total": 596,
+        "opens_unique": 184,
+        "clicks_total": 29,
+        "clicks_unique": 17,
+        "placed_orders": 14,
+        "unique_purchasers": 4,
+        "revenue_note": "Revenue totals require Klaviyo Reporting API — use MCP or live API call for revenue data",
+        "bounces": 0,
+        "unsubscribes": 6,
+        "new_subscribers": 1,
+        "refunds": 1,
+        "open_rate_pct": 33.89,
+        "click_rate_pct": 3.13,
+        "unsubscribe_rate_pct": 1.1,
+        "bounce_rate_pct": 0
+      }
     }
   }
 }
