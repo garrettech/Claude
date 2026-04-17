@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-17T07:35:40.305Z",
+  "generated_at": "2026-04-17T07:41:42.317Z",
   "generated_by": "fetch-klaviyo-data.js",
   "api_revision": "2024-10-15",
   "brands": {
     "les_nereides": {
       "brand": "Les Néréides Australia",
-      "fetched_at": "2026-04-17T07:35:40.306Z",
+      "fetched_at": "2026-04-17T07:41:42.320Z",
       "error": null,
       "account_id": "X5HPYk",
       "account_name": "Les Nereides",
@@ -864,7 +864,7 @@
     },
     "love_persimmon": {
       "brand": "Love Persimmon",
-      "fetched_at": "2026-04-17T07:35:51.319Z",
+      "fetched_at": "2026-04-17T07:41:53.537Z",
       "error": null,
       "account_id": "Yq6kpL",
       "account_name": "Love Persimmon",
@@ -1571,7 +1571,7 @@
     },
     "roberto_verino": {
       "brand": "Roberto Verino ANZ",
-      "fetched_at": "2026-04-17T07:36:02.868Z",
+      "fetched_at": "2026-04-17T07:42:04.884Z",
       "error": null,
       "account_id": "QQkjxP",
       "account_name": "Roberto Verino",
@@ -2042,7 +2042,7 @@
     },
     "mr_boho": {
       "brand": "Mr. Boho",
-      "fetched_at": "2026-04-17T07:36:13.128Z",
+      "fetched_at": "2026-04-17T07:42:14.745Z",
       "error": null,
       "account_id": "TsksFG",
       "account_name": "Mr.Boho",
