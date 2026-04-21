@@ -24,12 +24,12 @@
       "mr_boho": "TsksFG"
     }
   },
-  "generated_at": "2026-04-20T19:00:06.117Z",
+  "generated_at": "2026-04-21T19:00:04.846Z",
   "api_revision": "2024-10-15",
   "brands": {
     "les_nereides": {
       "brand": "Les Néréides Australia",
-      "fetched_at": "2026-04-20T19:00:06.122Z",
+      "fetched_at": "2026-04-21T19:00:04.874Z",
       "error": null,
       "account_id": "X5HPYk",
       "account_name": "Les Nereides",
@@ -231,16 +231,28 @@
           "created": "2025-03-18T03:51:41+00:00"
         },
         {
+          "id": "VWDbRW",
+          "name": "Top 50 Spenders- VIP",
+          "created": "2026-04-21T06:28:16+00:00"
+        },
+        {
           "id": "WNVqtN",
           "name": "Rewards Points Balance > 220",
           "created": "2026-04-10T06:56:12+00:00"
         }
       ],
-      "total_segments": 7,
+      "total_segments": 8,
       "recent_campaigns": [
         {
+          "id": "01KPQ7BFHQ6GBB30PCM8QPQ5FE",
+          "name": "Week 17: 23 Apr l Wholesale Customers: AXON",
+          "status": "Draft",
+          "created_at": "2026-04-21T05:14:05.241235+00:00",
+          "send_time": null
+        },
+        {
           "id": "01KPCQWWM3BH4585SS8RJPSD9S",
-          "name": "Week 17 l 23 Apr -VIP Customer Mystery Gift",
+          "name": "Week 17 l 22 Apr -VIP Customer Mystery Gift",
           "status": "Draft",
           "created_at": "2026-04-17T03:31:34.150704+00:00",
           "send_time": null
@@ -255,9 +267,9 @@
         {
           "id": "01KPCHNNPZ7PK9J70092WZ1333",
           "name": "Week 17 l 21 Apr - AXON (UGC)",
-          "status": "Draft",
+          "status": "Sending",
           "created_at": "2026-04-17T01:42:46.242558+00:00",
-          "send_time": null
+          "send_time": "2026-04-21T19:00:00+00:00"
         },
         {
           "id": "01KP9RDJ5H2K9308N02H7W45T3",
@@ -370,13 +382,6 @@
           "status": "Sent",
           "created_at": "2026-03-12T04:07:37.742530+00:00",
           "send_time": "2026-03-15T23:00:00+00:00"
-        },
-        {
-          "id": "01KKAG0TF50WRM046731HTF8CE",
-          "name": "Week 10: 6th Mar l IWD Promo",
-          "status": "Sent",
-          "created_at": "2026-03-09T23:48:20.072438+00:00",
-          "send_time": "2026-03-10T22:30:00+00:00"
         }
       ],
       "total_campaigns_fetched": 20,
@@ -526,28 +531,28 @@
       },
       "performance_30d": {
         "period_days": 30,
-        "period_end": "2026-04-20",
-        "emails_sent": 171147,
-        "opens_total": 124031,
-        "opens_unique": 22815,
-        "clicks_total": 3835,
-        "clicks_unique": 1564,
-        "placed_orders": 68,
-        "unique_purchasers": 66,
+        "period_end": "2026-04-21",
+        "emails_sent": 171153,
+        "opens_total": 124230,
+        "opens_unique": 22844,
+        "clicks_total": 3852,
+        "clicks_unique": 1578,
+        "placed_orders": 71,
+        "unique_purchasers": 68,
         "revenue_note": "Revenue totals require Klaviyo Reporting API — use MCP or live API call for revenue data",
-        "bounces": 658,
-        "unsubscribes": 357,
-        "new_subscribers": 402,
+        "bounces": 656,
+        "unsubscribes": 365,
+        "new_subscribers": 392,
         "refunds": 3,
-        "open_rate_pct": 13.33,
-        "click_rate_pct": 0.91,
+        "open_rate_pct": 13.35,
+        "click_rate_pct": 0.92,
         "unsubscribe_rate_pct": 0.21,
         "bounce_rate_pct": 0.38
       }
     },
     "love_persimmon": {
       "brand": "Love Persimmon",
-      "fetched_at": "2026-04-20T19:00:21.625Z",
+      "fetched_at": "2026-04-21T19:00:20.488Z",
       "error": null,
       "account_id": "Yq6kpL",
       "account_name": "Love Persimmon",
@@ -651,6 +656,13 @@
       "total_segments": 5,
       "recent_campaigns": [
         {
+          "id": "01KPQCNA25AD76QPCC4GBQSX47",
+          "name": "Week 17 l 21st April -  Mother's Day Look (Alquema, Mr Boho, Vendula)",
+          "status": "Scheduled",
+          "created_at": "2026-04-21T06:46:50.184954+00:00",
+          "send_time": "2026-04-21T23:45:00+00:00"
+        },
+        {
           "id": "01KNV2WH52XXHSJGW5YRYQFDVT",
           "name": "Week 16 l 18th April Points Balance Reminder — Pre Mother's Day (Apr 2026)",
           "status": "Draft",
@@ -659,7 +671,7 @@
         },
         {
           "id": "01KNTHBQN46YM4TWVYWFF6MHS6",
-          "name": "Week 16 l 16th April - Alquema",
+          "name": "Week 17 l 25th April - Alquema",
           "status": "Draft",
           "created_at": "2026-04-10T01:51:00.776297+00:00",
           "send_time": null
@@ -782,13 +794,6 @@
           "status": "Sent",
           "created_at": "2026-02-21T05:40:13.193260+00:00",
           "send_time": "2026-02-23T10:00:00+00:00"
-        },
-        {
-          "id": "01KH2ADXXBMACS30G17JE1DGAQ",
-          "name": "Week 9 l  27 Jan -Women's Edit: Multi Product",
-          "status": "Sent",
-          "created_at": "2026-02-09T23:05:19.022295+00:00",
-          "send_time": "2026-02-28T14:00:00+00:00"
         }
       ],
       "total_campaigns_fetched": 20,
@@ -952,28 +957,28 @@
       },
       "performance_30d": {
         "period_days": 30,
-        "period_end": "2026-04-20",
-        "emails_sent": 28438,
-        "opens_total": 18592,
-        "opens_unique": 3301,
-        "clicks_total": 611,
+        "period_end": "2026-04-21",
+        "emails_sent": 28461,
+        "opens_total": 17966,
+        "opens_unique": 3289,
+        "clicks_total": 606,
         "clicks_unique": 287,
-        "placed_orders": 34,
+        "placed_orders": 35,
         "unique_purchasers": 30,
         "revenue_note": "Revenue totals require Klaviyo Reporting API — use MCP or live API call for revenue data",
-        "bounces": 252,
-        "unsubscribes": 82,
-        "new_subscribers": 176,
+        "bounces": 251,
+        "unsubscribes": 78,
+        "new_subscribers": 177,
         "refunds": 1,
-        "open_rate_pct": 11.61,
+        "open_rate_pct": 11.56,
         "click_rate_pct": 1.01,
-        "unsubscribe_rate_pct": 0.29,
-        "bounce_rate_pct": 0.89
+        "unsubscribe_rate_pct": 0.27,
+        "bounce_rate_pct": 0.88
       }
     },
     "roberto_verino": {
       "brand": "Roberto Verino ANZ",
-      "fetched_at": "2026-04-20T19:00:36.799Z",
+      "fetched_at": "2026-04-21T19:00:36.459Z",
       "error": null,
       "account_id": "QQkjxP",
       "account_name": "Roberto Verino",
@@ -1061,6 +1066,13 @@
       ],
       "total_segments": 8,
       "recent_campaigns": [
+        {
+          "id": "01KPQF3T9NA9YAGCPCG98NAFRJ",
+          "name": "Week 17- 23 Apr: Women's Tactical (New Season)",
+          "status": "Draft",
+          "created_at": "2026-04-21T07:29:42.713276+00:00",
+          "send_time": null
+        },
         {
           "id": "01KPA1TAK50SPSK29XZWSMV137",
           "name": "AI Generated: Unlock the Secrets of Understated Fashion 🌟",
@@ -1193,13 +1205,6 @@
           "status": "Cancelled: No Recipients",
           "created_at": "2026-02-24T05:27:59.555087+00:00",
           "send_time": "2026-02-24T10:00:00+00:00"
-        },
-        {
-          "id": "01KHZC5FE48JZQWGFTAXHQF7SS",
-          "name": "[To Reschedule-Date]  | AW26 Collection Newsletter",
-          "status": "Draft",
-          "created_at": "2026-02-21T05:53:37.736715+00:00",
-          "send_time": null
         }
       ],
       "total_campaigns_fetched": 20,
@@ -1279,28 +1284,28 @@
       },
       "performance_30d": {
         "period_days": 30,
-        "period_end": "2026-04-20",
-        "emails_sent": 12581,
-        "opens_total": 6570,
-        "opens_unique": 1557,
-        "clicks_total": 739,
-        "clicks_unique": 260,
+        "period_end": "2026-04-21",
+        "emails_sent": 12027,
+        "opens_total": 6199,
+        "opens_unique": 1536,
+        "clicks_total": 684,
+        "clicks_unique": 250,
         "placed_orders": 1,
         "unique_purchasers": 1,
         "revenue_note": "Revenue totals require Klaviyo Reporting API — use MCP or live API call for revenue data",
-        "bounces": 57,
-        "unsubscribes": 26,
-        "new_subscribers": 27,
+        "bounces": 48,
+        "unsubscribes": 24,
+        "new_subscribers": 26,
         "refunds": 0,
-        "open_rate_pct": 12.38,
-        "click_rate_pct": 2.07,
-        "unsubscribe_rate_pct": 0.21,
-        "bounce_rate_pct": 0.45
+        "open_rate_pct": 12.77,
+        "click_rate_pct": 2.08,
+        "unsubscribe_rate_pct": 0.2,
+        "bounce_rate_pct": 0.4
       }
     },
     "mr_boho": {
       "brand": "Mr. Boho",
-      "fetched_at": "2026-04-20T19:00:53.947Z",
+      "fetched_at": "2026-04-21T19:00:51.256Z",
       "error": null,
       "account_id": "TsksFG",
       "account_name": "Mr.Boho",
@@ -1649,10 +1654,10 @@
       },
       "performance_30d": {
         "period_days": 30,
-        "period_end": "2026-04-20",
-        "emails_sent": 434,
-        "opens_total": 504,
-        "opens_unique": 174,
+        "period_end": "2026-04-21",
+        "emails_sent": 435,
+        "opens_total": 498,
+        "opens_unique": 172,
         "clicks_total": 25,
         "clicks_unique": 15,
         "placed_orders": 12,
@@ -1662,8 +1667,8 @@
         "unsubscribes": 6,
         "new_subscribers": 1,
         "refunds": 1,
-        "open_rate_pct": 40.09,
-        "click_rate_pct": 3.46,
+        "open_rate_pct": 39.54,
+        "click_rate_pct": 3.45,
         "unsubscribe_rate_pct": 1.38,
         "bounce_rate_pct": 0
       }
