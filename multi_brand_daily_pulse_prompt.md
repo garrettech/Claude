@@ -18,12 +18,12 @@ Apply the same window across every tool call. GSC has a 2–3 day lag — note S
 
 ## DATA SOURCES (PER BRAND)
 
-| Brand | Shopify | GSC | GA4 | Klaviyo (Garrettech MCP) | GA4 Geo Filter |
-|---|---|---|---|---|---|
-| Les Néréides AU | Windsor.ai | Windsor.ai | Windsor.ai | `les_nereides` | AU/NZ only |
-| Love Persimmon | Windsor.ai | Windsor.ai | Windsor.ai | `love_persimmon` | All regions |
-| Roberto Verino | Windsor.ai | Windsor.ai | Windsor.ai | `roberto_verino` | AU/NZ only |
-| Mr Boho | ❌ Not connected | Windsor.ai | Windsor.ai | `mr_boho` | AU/NZ only |
+| Brand | Shopify | GSC | GA4 | Klaviyo (Garrettech MCP) | Lightspeed (Garrettech MCP) | GA4 Geo Filter |
+|---|---|---|---|---|---|---|
+| Les Néréides AU | Windsor.ai | Windsor.ai | Windsor.ai | `les_nereides` | `les_nereides` | AU/NZ only |
+| Love Persimmon | Windsor.ai | Windsor.ai | Windsor.ai | `love_persimmon` | `love_persimmon` | All regions |
+| Roberto Verino | Windsor.ai | Windsor.ai | Windsor.ai | `roberto_verino` | `roberto_verino` | AU/NZ only |
+| Mr Boho | ❌ Not connected | Windsor.ai | Windsor.ai | `mr_boho` | ❌ No stores | AU/NZ only |
 
 ---
 
@@ -40,6 +40,18 @@ For each brand, pull only what's needed for the headlines:
 
 **GA4 (Windsor.ai)** — all 4 brands, apply geo filter per table:
 - Total sessions, organic sessions, purchase events — current vs LW
+
+**Lightspeed (Garrettech MCP server)** — Les Néréides, Love Persimmon, Roberto Verino only:
+
+Call `lightspeed_sales_summary(brand, date_from, date_to)` for each brand. The response includes a `by_register` breakdown. Extract:
+
+- **Physical store total:** sum all registers **excluding** the eshop register. Report as combined revenue inc. GST and total transaction count.
+- **Eshop register only:** isolate the named eshop register per brand and report separately:
+  - Les Néréides → register name `e-shop` (Warehouse outlet, outlet ID `02dcd191-aee8-11e8-ed44-fcee1e271d99`)
+  - Love Persimmon → register name `Online`
+  - Roberto Verino → register name `RVONL`
+
+If a register name is absent from `by_register` (no sales in period), report as `$0 (0 orders)`.
 
 **Klaviyo (Garrettech MCP server)** — all 4 brands:
 ```
@@ -108,6 +120,7 @@ planned activity."]
 🌸 LES NÉRÉIDES — [🔴 / 🟡 / ✅]
 ─────────────────────────────────────────────────────
 Revenue: $X (LW $X, [+/-X%]) · Orders: X · CVR: X%
+Stores: $X (X txns) | e-shop: $X (X orders)
 Sessions: X | Organic: X (LW X, [+/-X%])
 GSC: X clicks · pos X.X (Δ [+/-X])
 Klaviyo: X sends · X opens · [campaign name if any: open X% / click X%]
@@ -118,6 +131,7 @@ Klaviyo: X sends · X opens · [campaign name if any: open X% / click X%]
 🍑 LOVE PERSIMMON — [🔴 / 🟡 / ✅]
 ─────────────────────────────────────────────────────
 Revenue: $X (LW $X, [+/-X%]) · Orders: X · CVR: X%
+Stores: $X (X txns) | e-shop: $X (X orders)
 Sessions: X | Organic: X (LW X, [+/-X%])
 GSC: X clicks · pos X.X (Δ [+/-X])
 Klaviyo: X sends · X opens · [campaign name if any: open X% / click X%]
@@ -128,6 +142,7 @@ Klaviyo: X sends · X opens · [campaign name if any: open X% / click X%]
 🌿 ROBERTO VERINO — [🔴 / 🟡 / ✅]
 ─────────────────────────────────────────────────────
 Revenue: $X (LW $X, [+/-X%]) · Orders: X · CVR: X%
+Stores: $X (X txns) | e-shop: $X (X orders)
 Sessions: X | Organic: X (LW X, [+/-X%])
 GSC: X clicks · pos X.X (Δ [+/-X])
 Klaviyo: X sends · X opens · [campaign name if any: open X% / click X%]
@@ -137,7 +152,7 @@ Klaviyo: X sends · X opens · [campaign name if any: open X% / click X%]
 ─────────────────────────────────────────────────────
 🕶️ MR BOHO — [🔴 / 🟡 / ✅]
 ─────────────────────────────────────────────────────
-Shopify: not connected
+Shopify: not connected · No physical stores
 Sessions (AU/NZ): X | Organic: X (LW X, [+/-X%])
 GSC: X clicks · pos X.X (Δ [+/-X])
 Klaviyo: X sends · X opens · [campaign name if any: open X% / click X%]
@@ -151,7 +166,7 @@ Klaviyo: X sends · X opens · [campaign name if any: open X% / click X%]
 If none: "No alerts."]
 
 ─────────────────────────────────────────────────────
-Data: Shopify · GSC · GA4 (Windsor.ai) · Klaviyo (Garrettech MCP)
+Data: Shopify · GSC · GA4 (Windsor.ai) · Klaviyo · Lightspeed (Garrettech MCP)
 [Monday GSC lag note if applicable]
 ─────────────────────────────────────────────────────
 ```
